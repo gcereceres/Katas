@@ -55,6 +55,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringTests.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Katas.Code\Katas.Code.csproj">
+      <Project>{194ba3a4-3f69-4798-8452-4684ac36d4c9}</Project>
+      <Name>Katas.Code</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
